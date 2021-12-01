@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const cors = require('cors');
+
+const routes = require('./routes/index');
 
 const PORT = 5000;
 
@@ -16,6 +19,8 @@ mongoose.connect(process.env.MONGO_URI, {
 })
   .then(console.log('Connected to MongoDB'))
   .catch(err => console.log(`========== Connection issue with MongoDB ========== ${err}`));
+
+app.use('/api/auth', routes.auth);
 
 app.listen(PORT, () => {
   console.log(`API running on port ${PORT}`);
