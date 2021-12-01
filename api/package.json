@@ -1,19 +1,24 @@
 {
-  "name": "api",
+  "name": "fincapapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend to capstone project",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "devhowey",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.14"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
