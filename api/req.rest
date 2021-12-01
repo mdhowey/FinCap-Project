@@ -1,0 +1,8 @@
+POST http://localhost:5000/api/auth/register
+content-type: application/json
+
+{
+    "username": "testworktest",
+    "email": "please@fincap.com",
+    "passowrd": "test123"
+}
