@@ -1,0 +1,49 @@
+@import './variables';
+
+h1 {
+  font-size: $font-xxl;
+  font-family: $Pacifico;
+  color: $primary;
+  line-height: 0.5;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-lg;
+  color: $dark;
+  line-height: 0;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-md;
+  color: $dark;
+  line-height: 0;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-sm;
+  color: $dark;
+  line-height: 0;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: $font-sm;
+  color: $dark;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-xs;
+  color: $dark;
+}
