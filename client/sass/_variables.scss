@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Pacifico&display=swap');
+
+// font families
+$Pacifico: 'Pacifico', cursive;
+$Maven: 'Maven Pro', sans-serif;
+
+// font sizes
+$font-xxs: 10px;
+$font-xs: 12px;
+$font-sm: 14px;
+$font-md: 18px;
+$font-lg: 24px;
+$font-xl: 36px;
+$font-xxl: 48px;
+$font-xxx: 96px;
+
+// colors
+$light: rgb(255, 255, 255);
+$dark: rgb(51, 51, 51);
+$med: rgb(99, 99, 99);
+$primary: rgb(138, 6, 190);
+$secondary: rgb(36, 224, 141);
+
+// spacing
+$spacing-xxs: 1px;
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+$spacing-xxl: 124px;
+
+// border radius
+$btnRadius: 8px;
+$pillRadius: 48px;
+$circleRadius: 999px;
+
+// heights
+$headerHeight: 45px;
+$footerHeight: 40px;
